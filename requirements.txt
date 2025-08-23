@@ -1,0 +1,6 @@
+﻿Flask
+Flask-Cors
+gunicorn
+PyPDF2
+requests
+numpy
