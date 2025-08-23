@@ -1,6 +1,8 @@
-﻿Flask
-Flask-Cors
-gunicorn
-PyPDF2
+flask
+flask-cors
+werkzeug
+pypdf2
+beautifulsoup4
 requests
-numpy
+gunicorn
+google-genai
