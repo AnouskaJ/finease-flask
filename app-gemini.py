@@ -42,7 +42,7 @@ def call_gemini_ai(prompt):
     try:
         # Initialize the client with the API key from the environment variable
         client = genai.Client(api_key=config.GENAI_API_KEY)
-        model = "gemini-1.5-flash"
+        model = "gemini-2.0-flash"
         
         # Prepare the content with the prompt replacing the placeholder
         contents = [
@@ -522,7 +522,7 @@ def interact_with_gemini(messages):
         
         # Initialize the client with the API key from your configuration
         client = genai.Client(api_key=config.GENAI_API_KEY)
-        model = "gemini-1.5-flash"
+        model = "gemini-2.0-flash"
         
         # Prepare the content with the prompt replacing the placeholder
         contents = [
